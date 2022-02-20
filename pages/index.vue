@@ -1,5 +1,9 @@
 <template>
-  <Tutorial/>
+<div class="flex">
+    <Nav />
+   <Tutorial class="w-full"/>
+</div>
+ 
 </template>
 
 <script>
