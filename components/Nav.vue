@@ -1,7 +1,7 @@
 <template>
   <div>
-    <nav class="py-2 w-60">
-      <div class="pt-4 pl-10">MovieOn</div>
+    <nav class="py-2 w-56">
+      <div class="pt-4 px-10 text-3xl font-bold text-blue-400">MovieOn</div>
       <div class="">
         <!-- menu -->
         <div>
