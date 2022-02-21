@@ -3,7 +3,7 @@
     <div class=" w-full">
       <div
         :style="{
-          backgroundImage: `url(https://image.tmdb.org/t/p/w300/${now_playing.poster_path})`,
+          backgroundImage: `url(https://image.tmdb.org/t/p/w300/${popular.poster_path})`,
         }"
         class="thumbnail relative px-4"
       >
@@ -63,7 +63,7 @@
 
 <script>
 export default {
-  props: ["now_playing" , "trends"],
+  props: ["popular"],
 };
 </script>
 
