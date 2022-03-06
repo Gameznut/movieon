@@ -67,6 +67,6 @@ export default {
       },
     },
   },
-  target: 'server',
+  target: 'static',
   ssr: "false",
 }
