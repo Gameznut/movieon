@@ -66,5 +66,7 @@ export default {
         autoprefixer: {},
       },
     },
-  }
+  },
+  target: 'server',
+  ssr: "false",
 }
